@@ -1,0 +1,33 @@
+:root {
+    --preto: #000;
+    --branco: #fff;
+    --Amarelo01: #F2B705;
+
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+h1{
+    color: var(--branco);
+    font-family: "Katibeh", serif;
+}
+p{
+    color: var(--branco);
+}
+h2{
+    color: var(--branco);
+    font-size: 20px;
+    font-family: "Katibeh", serif;
+}
+h3 {
+    color: var(--branco); /* Define a cor do texto usando uma variável CSS */
+    font-family: "Katibeh"; /* Define a fonte do texto */
+    font-size: 15px; /* Define o tamanho da fonte */
+}

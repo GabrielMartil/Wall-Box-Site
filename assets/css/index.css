@@ -1,0 +1,198 @@
+/*barra de status - Inicio */
+.statusbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    padding: 1px;
+    position: relative;
+    padding-right: 20px;
+    height: 40px;
+    
+
+
+    & .botaoStatus{
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: normal;
+        color: #fff;
+        text-decoration: none;
+    }
+    .botaoStatus:hover {
+        color: #f2b705;
+    }
+}
+
+/*barra de status - Fim */
+
+/*----------------------------------------------------------*/
+
+/*banner inicial - Inicio*/
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+    & .title {
+        color: #F2B705;
+    }
+
+    & .imgbanner {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+/*banner inicial - Fim*/
+
+/*----------------------------------------------------------*/
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+.banner-text h1 {
+    margin: 0;
+}
+
+/*----------------------------------------------------------*/
+
+.Resumo-Bio-Texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+
+    & .title {
+        color: #F2B705;
+    }
+}
+.Resumo-Bio-Texto h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: "Noto Serif", serif;
+}
+
+/*----------------------------------------------------------*/
+
+.Resumo-Bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+    & .Texto-Resumo{
+        color: var(--branco);
+        font-family: "Noto Serif", serif;
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 10px;
+        text-align: center;
+        text-align: justify;
+        gap: 30px;
+    }
+
+    & .listaBeneficios{
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    & .listaperformace{
+        color: white;
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+}
+.Resumo-Bio h1 {
+    margin: 0;
+}
+.Resumo-Bio img{
+    width: 600px;
+    height: 600px;
+}
+
+/*----------------------------------------------------------*/
+.Planos{
+    background: gray;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    & .Plano1{
+    background: black; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+    width: 300px;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+
+    & .PlanosAnual{
+    background: black; 
+    color: white; 
+    border: 5px solid #F2B705;
+    border-radius: 10px;
+    padding: 20px; 
+    text-align: center; 
+    width: 300px;
+
+    .PlanosAnual h1{
+        margin: 0;
+    }
+}
+
+    & .BotoesPlanos{
+        background-color: #313131;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    & .BotoesPlanosAnual{
+        background-color: #F2B705;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    
+    & .title {
+        color: #F2B705;
+    }
+    
+
+}
