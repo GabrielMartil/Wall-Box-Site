@@ -2,32 +2,61 @@
     --preto: #000;
     --branco: #fff;
     --Amarelo01: #F2B705;
-
 }
 
-body{
+body {
     background-color: black;
     display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+h1 {
     color: var(--branco);
     font-family: "Katibeh", serif;
 }
-p{
+
+p {
     color: var(--branco);
 }
-h2{
+
+h2 {
     color: var(--branco);
     font-size: 20px;
     font-family: "Katibeh", serif;
 }
+
 h3 {
-    color: var(--branco); /* Define a cor do texto usando uma variável CSS */
-    font-family: "Katibeh"; /* Define a fonte do texto */
-    font-size: 15px; /* Define o tamanho da fonte */
+    color: var(--branco);
+    font-family: "Katibeh";
+    font-size: 15px;
+}
+
+/* Estilos responsivos */
+
+/* Para telas grandes */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+/* Para tablets */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+/* Para celulares */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
